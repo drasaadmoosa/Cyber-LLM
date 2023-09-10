@@ -4,7 +4,7 @@
 
 ## 🎯 Objective
 
-Our mission is complex but solvable! We're diving into raw security logs (around 100MB) to identify any Indicators of Compromise (IoCs) with high confidence. Using Prompt Engineering, we'll send log embeddings to Llama 2 for analysis. High-confidence findings are stored in LangChain Memory, and when ready, we'll release a detailed report on the detected IoCs and the implicated APT group.
+Our mission is complex but solvable! We're diving into raw security logs to identify any Indicators of Compromise (IoCs) with high confidence. Using Prompt Engineering, we'll send log embeddings to Llama 2 for analysis. High-confidence findings are stored in LangChain Memory, and when ready, we'll release a detailed report on the detected IoCs and the implicated APT group.
 
 ## 🛠️ Technologies & Concepts
 
