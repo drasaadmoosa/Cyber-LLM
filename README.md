@@ -3,6 +3,22 @@
 Welcome to the Cyber LLM Project! Here we're all about securing the digital world one vector at a time. Using a range of spiffy technologies like FAISS, Chroma, LangChain Memory, and Llama2, we're putting the "smart" in "smart cybersecurity." 🌐🔐✨
 
 ---
+# What is "Cyber LLM" 🤖
+
+In this innovative playground, we're not just doing cybersecurity; we're doing it smartly and efficiently! 🌐🔐✨
+
+## The Objective 🎯
+
+Got a massive text file of raw computer logs? Wondering if sneaky attackers are compromising your system? We've got you covered! Our project leverages cutting-edge technologies to sift through around 100MB of your security logs to find the proverbial needle in the haystack. 📊🔍
+
+Here's the rundown: We use _prompt engineering_ to transform your logs into embeddings, which are then stored in a Chroma Vector Store. Next, our trained Llama2 model, an expert in MITRE ATT&CK tactics and Advanced Persistent Threat (APT) groups, takes these embeddings and scrutinizes them for any Indicators of Compromise (IoC). If we find anything fishy 🐟, it's stored in a LangChain Memory until we're pretty darn sure there's a compromise and can pinpoint the APT group behind it. The grand finale? We give you a concise list of IoCs and the name of the naughty APT group. 🚨🕵️‍♂️
+
+Jump in and explore the architecture below to understand the gears that make this machine run smoothly! 🛠️⚙️
+
+
+
+
+---
 
 ## Software Architecture 🏗️
 
